@@ -1,0 +1,13 @@
+webapps/
+work/
+conf/
+logs/
+bin/
+native-jni-lib/
+webapps.dist/
+temp/
+*.txt
+*.md
+LICENSE
+NOTICE
+RELEASE-NOTES
