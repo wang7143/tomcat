@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+
+
+<web-app>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.web.UserServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>bookservlet</servlet-name>
+    <servlet-class>com.web.bookservlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>bookservlet</servlet-name>
+    <url-pattern>/manager/bookservlet</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>clientbookser</servlet-name>
+    <servlet-class>com.web.clientbookser</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>clientbookser</servlet-name>
+    <url-pattern>/clientbookser</url-pattern>
+  </servlet-mapping>
+</web-app>
